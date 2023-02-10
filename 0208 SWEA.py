@@ -144,13 +144,3 @@ for _ in range(1, T+1):
     #     for j in num_dict.values():
     #         if i == j:
     #             cnt_arr[] += j
-
-
-
-
-
-
-
-
-
-
