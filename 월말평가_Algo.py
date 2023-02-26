@@ -158,7 +158,7 @@ for tc in range(1, t+1):
 # 5. 8 방향 탐색
 # 6. 후보 리스트 만들고 1부터 (n-1)까지 뻗어가기
 # 7. 탐색 위치 설정, 빈자리면 break/색 다르면 좌표 push/색 같으면 pop 하고 뒤집기
-'''
+
 dx = [-1, -1, -1, 0, 0, 1, 1, 1]
 dy = [-1, 0, 1, -1, 1, -1, 0, 1]
 
@@ -203,7 +203,7 @@ for tc in range(1, t+1):
         blk += lst.count(1)
         wht += lst.count(2)
     print(f'#{tc} {blk} {wht}')
-'''
+
 # 간단한 압축 풀기
 '''
 t = int(input())
@@ -218,33 +218,3 @@ for tc in range(1, t+1):
     for i in range(0, len(line), 10):
         print(line[i:i+10])
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
