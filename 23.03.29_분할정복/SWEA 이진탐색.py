@@ -4,7 +4,7 @@
 '''
 
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 # turn: 시작(0), 왼(1), 오(2)
 def binary(l, r, key, turn):

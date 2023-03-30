@@ -49,7 +49,7 @@ for tc in range(1, t+1):
 '''
 
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 # 파리퇴치 3
 '''

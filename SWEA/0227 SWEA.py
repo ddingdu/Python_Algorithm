@@ -1,7 +1,7 @@
 # 알고리즘 응용 1일차
 
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 
 # 이진수2 (십진수를 이진수로 바꾸기)

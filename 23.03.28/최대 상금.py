@@ -4,7 +4,7 @@
 최대 자릿수: 6자리, 최대 교환 횟수: 10qjs
 '''
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 def perm(cnt):
     global max_v

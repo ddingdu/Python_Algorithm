@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("../23.03.29_분할정복/input.txt", "r")
+sys.stdin = open("../input.txt", "r")
 
 T = int(input())
 

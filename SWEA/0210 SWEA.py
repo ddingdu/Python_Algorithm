@@ -164,7 +164,7 @@ for tc in range(1, t + 1):
 '''
 # 9483 고대 유적
 import sys
-sys.stdin = open("../23.03.29_분할정복/input.txt", "r")
+sys.stdin = open("../input.txt", "r")
 # 가장 긴 구조물의 길이
 # 가로 세로 탐색 = 전치행렬
 # 1이면 cnt += 1 max

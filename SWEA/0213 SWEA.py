@@ -1,6 +1,6 @@
 # 괄호검사
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 '''
 t = int(input())
 for tc in range(1, t+1):

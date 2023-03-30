@@ -5,7 +5,7 @@
 # 총 비용/심은 나무 수/가장 비싼 가격/심어진 열
 # cost/tree/mx_cost/ans
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 t = int(input())
 for tc in range(1, t+1):

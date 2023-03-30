@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 # subtree
 # 노드 n을 루트로 하는 서브 트리에 속한 노드의 개수

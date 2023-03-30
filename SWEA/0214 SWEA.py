@@ -51,7 +51,7 @@ print(fibo1(7))    # 13
 '''
 
 import sys
-sys.stdin = open('../23.03.29_분할정복/input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 # 그래프 경로
 # 경로 있으면 1, 없으면 0
