@@ -1,15 +1,34 @@
+import sys
+sys.stdin = open('input.txt', 'r')
+import pprint
+p = { 1: [(-1,0),(1,0),(0,-1),(0,1)],
+      2: [(-1,0),(1,0)],
+      3: [(0,-1),(0,1)],
+      4: [(-1,0),(0,1)],
+      5: [(1,0),(0,1)],
+      6: [(1,0),(0,-1)],
+      7: [(-1,0),(0,-1)]
+}
 
+t = int(input())
+for tc in range(1, t+1):
+    n, m, r, c, l = map(int, input().split())
+    arr = [list(map(int, input().split())) for _ in range(n)]
+    pprint.pprint(arr)
+    v = [[0] * m for _ in range(n)]
+    v[r][c] = 1
+    q = [(r, c)]
 
-def dfs(n, lst):
-
-    if n == M:
-
-        return
-
-
-N, M = map(int, input().split())
-ans = []
-dfs(0, [])
-
-for lst in ans:
-    print(*lst)
+    cnt = 1
+    while q:
+        sr, sc = q.pop(0)
+        for dr, dc in p[arr[sr][sc]]:
+            nr, nc = sr + dr, sc + dc
+            if 0 <= nr < n and 0 <= nc < m and v[nr][nc] == 0 and arr[nr][nc] and (-dr, -dc) in p[arr[nr][nc]]:
+                q.append((nr, nc))
+                v[nr][nc] = v[sr][sc] + 1
+                if v[nr][nc] <= l:
+                    cnt += 1
+    print(f'시작 좌표(r, c):{(r, c)}, 제한 시간(l):{l}')
+    pprint.pprint(v)
+    print(f'#{tc} {cnt}')
