@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 # 손해를 보지 않고(같거나 큰) 서비스 가능한 최대 집의 수
 

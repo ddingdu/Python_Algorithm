@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 
 dist = {1: [(-1, 0), (1, 0), (0, -1), (0, 1)],
         2: [(-1, 0), (1, 0)],

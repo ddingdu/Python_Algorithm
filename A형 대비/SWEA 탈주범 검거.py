@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('../input.txt', 'r')
 import pprint
 '''
 Q. 탈주범이 위치할 수 있는 장소의 개수
